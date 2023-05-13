@@ -1,0 +1,61 @@
+body {
+  background: rgb(27, 35, 112);
+  background: radial-gradient(
+    circle,
+    rgba(27, 35, 112, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+h1 {
+  text-align: center;
+  margin-top: 200px;
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 100px;
+  color: #f1f1f1;
+}
+
+div {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-1 {
+  margin: 0 10px;
+  padding: 20px 40px;
+  border-radius: 45%;
+  border: solid 1px;
+  font-size: large;
+  background-color: green;
+  color: #f1f1f1;
+}
+
+.btn-2 {
+  margin: 0 10px;
+  padding: 20px 40px;
+  border-radius: 45%;
+  border: solid 1px;
+  font-size: large;
+  background-color: orangered;
+  color: #f1f1f1;
+}
+
+.btn-3 {
+  margin: 0 10px;
+  padding: 20px 40px;
+  border-radius: 45%;
+  border: solid 1px;
+  font-size: large;
+  background-color: red;
+  color: #f1f1f1;
+}
+button:hover {
+  cursor: pointer;
+}
