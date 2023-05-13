@@ -27,6 +27,14 @@ function parar() {
 
 function relogio() {
   segundos++;
+if (segundos == 60) {
+    minutos++;
+    segundos = 0;
+    if (minutos == 60) {
+      minutos = 0;
+      horas++;
+    }
+  }
   var contador = document.getElementById("contador");
   contador.textContent =
     formatarTempo(horas) +
